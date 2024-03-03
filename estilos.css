@@ -1,0 +1,122 @@
+body {
+    margin: 3rem; 
+    display: flex;
+    min-height: 100vh; 
+    background-image: linear-gradient(
+        to top left,
+        #0B1957,
+        #5884E7
+    );
+    background-size: cover; 
+    background-position: center; 
+    color: #ffff;
+    font-family:Monospace;
+  }
+img{
+    border-radius: 80%;
+    width: 80%;
+    vertical-align: auto;
+    position: relative;
+    left: 10%;
+    border-style: solid;
+    border-width: 0.5rem;
+    border-color: #f28b30;;
+    height: auto;
+}
+
+p{
+    font-size: 1.3rem;
+}
+a{
+    color: #f28b30;;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+p span{
+    color: #b3b3b3;
+    font-size: 1.2rem;
+}
+
+#blocoInfo{
+    padding: 2%;
+}
+
+#blocoInfo p{
+    background-color: #141031;
+}
+
+#profissional{
+    border-width: 0.4rem;
+    width: 80rem;
+    border: 10px solid;
+    border-width: 0.4rem;
+    width: 80rem;
+    border-radius: 20px; 
+}
+
+#profissional * {
+    margin: 2%;
+}
+
+#academico{
+    width: 100%;
+    border-style: solid;
+    border-width: 0.4rem;
+    border-color: #ffff;;
+    border-width: 100%;
+    width: 80rem;
+    border-radius: 20px; 
+}
+#academico * {
+    margin: 2%;
+}
+#conhecimento{
+    width: 100%;
+    border-style: solid;
+    border-width: 0.4rem;
+    border-color: #ffff;;
+    border-width: 100%;
+    width: 80rem;
+    border-radius: 20px; 
+}
+#conhecimento * {
+    margin: 2%;
+}
+#conhecimento span{
+    background-color: #141031;
+    padding: 0px 50px 10px 0px;
+    font-size: 1.2rem;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+}
+#conhecimento span::after{
+    content:" ";
+    width: 0%;
+    height: 10px;
+    background-color: #f28b30;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+}
+
+#conhecimento span:hover::after{
+    width: 100%;
+}
+
+#resumo{
+    width: 100%;
+    border-style: solid;
+    border-width: 0.4rem;
+    border-color: #ffff;;
+    border-width: 100%;
+    width: 80rem;
+    border-radius: 20px; 
+}
+#resumo * {
+    margin: 2%;
+}
+
+
